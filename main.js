@@ -86,7 +86,7 @@ const cities = [
     coordinates: [144.9666667, -37.78333333],
   },
     {
-    name: "Jipee",
+    name: "Jippe",
     coordinates: [18, 48],
   },
   {
