@@ -91,7 +91,7 @@ const cities = [
   },
   {
     name: "SupremeMagus",
-    coordinates: [-85.7585, 39.3527],
+    coordinates: [-85.7585, 39.3- 527],
   },
     {
     name: "Zlo",
@@ -99,7 +99,13 @@ const cities = [
   },
   {
     name: "Dom",
-    coordinates: [-122.6784, 44.5152],}
+    coordinates: [-122.6784, 44.5152],
+  },
+  {
+    name: "Intrepid Speculator",
+    coordinates: [801918, 257617],
+
+  }
   /*
   {
     "name": "Adelaide, Australia",
@@ -311,6 +317,8 @@ const cities = [
       -33.91666667
     ]
   },
+
+  .
   {
     "name": "Caracas, Venezuela",
     "coordinates": [
