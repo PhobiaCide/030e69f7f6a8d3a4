@@ -3,6 +3,7 @@ function _1(md) {
 # Solar Terminator
 
 It is currently night in the blue region.
+Note that some of the pins have been "tweaked" in the interest of legibility.
   `;
 }
 
@@ -30,7 +31,7 @@ const cities = [
   },
   {
     name: "Thibault",
-    coordinates: [4.366666667, 50.86666667],
+    coordinates: [4.366666667, 49.86666667],
   },
   {
     name: "Rossi",
@@ -38,7 +39,7 @@ const cities = [
   },
   {
     name: "Instynx",
-    coordinates: [-3.166666667, 55.91666667],
+    coordinates: [-4.166666667, 56.91666667],
   },
   {
     name: "Mikayla",
@@ -70,7 +71,7 @@ const cities = [
   },
   {
     name: "Smiffy",
-    coordinates: [-3.037, 53.8167],
+    coordinates: [-2.037, 54.8167],
   },
   {
     name: "Ser Nub",
