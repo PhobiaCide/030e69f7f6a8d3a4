@@ -978,7 +978,7 @@ function _mapWithCities(
     context.fillStyle = "yellow";
     context.fill();
     // Optionally, you can add city names next to the pins
-    context.fillStyle = "black";
+    context.fillStyle = "white";
     context.fillText(city.name, x + 10, y + 5);
   });
 
@@ -1014,7 +1014,7 @@ function _map(
   context.beginPath(), path(land), (context.fillStyle = "#000"), context.fill();
   context.beginPath(),
     path(night),
-    (context.fillStyle = "rgba(0,0,255,0.3)"),
+    (context.fillStyle = "rgba(0,0,255,0.2)"),
     context.fill();
   context.beginPath(),
     path(sphere),
