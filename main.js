@@ -54,8 +54,8 @@ const cities = [
     coordinates: [121.774, 12.8797],
   },
   {
-    name: "Manifest Density",
-    coordinates: [-77.0369, 38.9072],
+    name: "Manifest Densiti",
+    coordinates: [-77.0369, 39.9072],
   },
   {
     name: "Oragix",
