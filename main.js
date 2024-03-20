@@ -11,7 +11,7 @@ Note that some of the pins have been "tweaked" in the interest of legibility.
 const cities = [
   {
     name: "PhobiaCide",
-    coordinates: [-92.39345, 38.89037],
+    coordinates: [-92.39345, 37.89037],
   },
   {
     name: "Nth",
@@ -91,7 +91,7 @@ const cities = [
   },
   {
     name: "SupremeMagus",
-    coordinates: [-85.7585, 39.8527],
+    coordinates: [-85.7585, 39.3527],
   },
     {
     name: "Zlo",
