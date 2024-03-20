@@ -91,7 +91,7 @@ const cities = [
   },
   {
     name: "SupremeMagus",
-    coordinates: [-85.7585, 39.3- 527],
+    coordinates: [-85.7585, 39.3527],
   },
     {
     name: "Zlo",
