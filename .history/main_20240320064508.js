@@ -58,31 +58,49 @@ const cities = [
   },
   {
     name: "Oragix",
-    coordinates: [-6.9118, 61.8926],
+    coordinates: [ -6.9118, 61.8926],
+  },
+    {
+    "name": "Edwarkin",
+    "coordinates": [
+      -3.7,
+      40.43333333
+    ]
+  },
+      {
+    "name": "Cryonox",
+    "coordinates": [
+      103.9166667,
+      1.233333333
+    ]
+  },
+            {
+    "name": "Smiffy",
+    "coordinates": [
+      -3.0370,
+      53.8167
+    ]
   },
   {
-    name: "Edwarkin",
-    coordinates: [-3.7, 40.43333333],
+    "name": "Ser Nub",
+    "coordinates": [
+      -2.583333333,
+      51.46666667
+    ]
   },
-  {
-    name: "Cryonox",
-    coordinates: [103.9166667, 1.233333333],
+    {
+    "name": "DStruction",
+    "coordinates": [
+      -83.437386,
+      45.069157
+    ]
   },
-  {
-    name: "Smiffy",
-    coordinates: [-3.037, 53.8167],
-  },
-  {
-    name: "Ser Nub",
-    coordinates: [-2.583333333, 51.46666667],
-  },
-  {
-    name: "DStruction",
-    coordinates: [-83.437386, 45.069157],
-  },
-  {
-    name: "LETUSDIG",
-    coordinates: [144.9666667, -37.78333333],
+      {
+    "name": "LETUSDIG",
+    "coordinates": [
+      144.9666667,
+      -37.78333333
+    ]
   },
   /*
   {
