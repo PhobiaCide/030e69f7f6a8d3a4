@@ -55,7 +55,7 @@ const cities = [
   },
   {
     name: "Manifest Densiti",
-    coordinates: [-77.0369, 39.9072],
+    coordinates: [-77.0369, 40.9072],
   },
   {
     name: "Oragix",
@@ -70,7 +70,7 @@ const cities = [
     coordinates: [103.9166667, 1.233333333],
   },
   {
-    name: "Smiffy",
+    name: "TJSmiffy",
     coordinates: [-2.037, 54.8167],
   },
   {
@@ -95,7 +95,7 @@ const cities = [
   },
     {
     name: "Zlo",
-    coordinates: [-20.4612, 44.8125],
+    coordinates: [20.4612, 44.8125],
   },
   {
     name: "Dom",
