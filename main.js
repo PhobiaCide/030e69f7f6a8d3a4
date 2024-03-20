@@ -23,7 +23,7 @@ const cities = [
   },
   {
     name: "Yomdran",
-    coordinates: [-155.581684, 19.598768],
+    coordinates: [-158.0001, 21.4389],
   },
   {
     name: "Porkchops O'Chunky",
