@@ -1,0 +1,14 @@
+{
+  "name": "030e69f7f6a8d3a4",
+  "main": "030e69f7f6a8d3a4@212.js",
+  "version": "212.0.0",
+  "homepage": "https://observablehq.com/d/030e69f7f6a8d3a4",
+  "author": {
+    "name": "PhobiaCide",
+    "url": "https://observablehq.com/@phobiacide"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "^5.9.7"
+  }
+}
