@@ -15,11 +15,11 @@ const cities = [
   },
   {
     name: "Nth",
-    coordinates: [-119.24017, 46.20404],
+    coordinates: [-119.24017, 47.20404],
   },
   {
     name: "Braelor",
-    coordinates: [-119.24017, 44.20404],
+    coordinates: [-119.24017, 46.00404],
   },
   {
     name: "Yomdran",
@@ -85,6 +85,21 @@ const cities = [
     name: "LETUSDIG",
     coordinates: [144.9666667, -37.78333333],
   },
+    {
+    name: "Jipee",
+    coordinates: [18, 48],
+  },
+  {
+    name: "SupremeMagus",
+    coordinates: [-85.7585, 39.8527],
+  },
+    {
+    name: "Zlo",
+    coordinates: [-20.4612, 44.8125],
+  },
+  {
+    name: "Dom",
+    coordinates: [-122.6784, 44.5152],}
   /*
   {
     "name": "Adelaide, Australia",
