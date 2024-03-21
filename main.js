@@ -103,7 +103,7 @@ const cities = [
   },
   {
     name: "Intrepid Speculator",
-    coordinates: [80.1918, 25.7617],
+    coordinates: [-80.1918, 25.7617],
   },
   /*
   {
