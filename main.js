@@ -105,6 +105,10 @@ const cities = [
     name: "Intrepid Speculator",
     coordinates: [-80.1918, 25.7617],
   },
+  {
+    name: "Amber",
+    coordinates: [-79.3832, 43.6532],
+  }
   /*
   {
     "name": "Adelaide, Australia",
