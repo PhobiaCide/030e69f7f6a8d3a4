@@ -73,7 +73,7 @@ const cities = [
     name: "TJSmiffy",
     coordinates: [-2.037, 54.8167],
   },
-  {
+  { 
     name: "Ser Nub",
     coordinates: [-2.583333333, 51.46666667],
   },
@@ -108,6 +108,14 @@ const cities = [
   {
     name: "Amber",
     coordinates: [-79.3832, 44.3532],
+  },
+  {
+    name: "Stirus",
+    coordinates: [-113.8115, 52.2690],  
+  },
+  {
+    name: "Balthazzarr Nadieu",
+    coordinates: [-118.7885, 55.1707],
   }
   /*
   {
