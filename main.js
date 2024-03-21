@@ -79,7 +79,7 @@ const cities = [
   },
   {
     name: "DStruction",
-    coordinates: [-83.437386, 45.069157],
+    coordinates: [-83.437386, 46.369157],
   },
   {
     name: "LETUSDIG",
@@ -107,7 +107,7 @@ const cities = [
   },
   {
     name: "Amber",
-    coordinates: [-79.3832, 43.6532],
+    coordinates: [-79.3832, 44.3532],
   }
   /*
   {
