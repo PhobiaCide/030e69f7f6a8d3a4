@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>Solar Terminator</title>
@@ -24,22 +24,58 @@
     <!-- Or just include all the core themes together:
     <link href="https://cdn.jsdelivr.net/npm/halfmoon@2.0.1/css/cores/halfmoon.cores.css" rel="stylesheet" integrity="sha256-MAzAVJMU/ze52ZHcA8CeqRrCOVndMZlHwNeS2c73vP4=" crossorigin="anonymous">
     -->
-        <!-- Topcoat CSS -->
+    <!-- Topcoat CSS -->
     <link
       id="topcoat"
       rel="stylesheet"
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/css/topcoat-mobile-dark.min.css"
     />
-    <style>* {overflow:hidden;max-height:100vh;max-width:100vw;}</style>
+    <style>
+      * {
+        overflow: hidden;
+        max-height: 100vh;
+        max-width: 100vw;
+      }
+    </style>
   </head>
-  <body data-bs-theme="dark" data-bs-core="modern" class="bg-secondary">
-    <main class="container-fluid">
-      <article class="container">
+
+  <body data-bs-theme="dark" data-bs-core="modern" class="">
+    <main class="container bg-body text-body">
+      <header>
+        <!-- Add a menu section -->
+        <section id="modal" class="p-3">
+          <h2>Add Pin</h2>
+          <form class="form">
+            <fieldset>
+              <legend></legend>
+              <span class="form-group">
+              <label for="pinName" class="form-group-label">Label:</label>
+              <input type="text" id="pinName" class="topcoat-text-input" />
+              </span>
+              <label for="latitude">Latitude:</label>
+              <input type="number" id="latitude" />
+              <label for="longitude">Longitude:</label>
+              <input type="number" id="longitude" />
+              <input
+                type="button"
+                onclick="addPin()"
+                value="Add Pin"
+                class="btn topcoat-button"
+              />
+
+              <h2>Save/Load Pins</h2>
+              <button onclick="savePins()">Save Pins</button>
+              <button onclick="loadPins()">Load Pins</button>
+            </fieldset>
+          </form>
+        </section>
+      </header>
+      <article class="container-fluid">
         <section class="observablehq">
           <script type="module">
             import define from "./index.js";
-            import { Runtime, Library, Inspector } from "./runtime.js";
+            import { Runtime, Inspector } from "./runtime.js";
             const runtime = new Runtime();
             const main = runtime.module(define, Inspector.into(document.body));
           </script>
