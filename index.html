@@ -40,12 +40,15 @@
     </style>
   </head>
 
-  <body data-bs-theme="dark" data-bs-core="modern" class="">
-    <main class="container bg-body text-body">
+  <body data-bs-theme="dark" data-bs-core="modern" class="subpixel-antialiased">
+    <main class="container text-body">
       <header>
         <!-- Add a menu section -->
         <section id="modal" class="p-3">
+          <details class="d-none">
+            <summary>
           <h2>Add Pin</h2>
+          </summary>
           <form class="form">
             <fieldset>
               <legend></legend>
@@ -69,6 +72,7 @@
               <button onclick="loadPins()">Load Pins</button>
             </fieldset>
           </form>
+          </details>
         </section>
       </header>
       <article class="container-fluid">
