@@ -26,10 +26,6 @@ const friends = [
     coordinates: [-158.0001, 21.4389],
   },
   {
-    name: "Porkchops O'Chunky",
-    coordinates: [174.75, -36.86666667],
-  },
-  {
     name: "Thibault",
     coordinates: [4.366666667, 49.86666667],
   },
