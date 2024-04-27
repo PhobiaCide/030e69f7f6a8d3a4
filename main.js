@@ -39,7 +39,7 @@ const friends = [
   },
   {
     name: "Mikayla",
-    coordinates: [-118.2426, 34.0549],
+    coordinates: [-122.4194, 37.7749],
   },
   {
     name: "Ragnarok23",
